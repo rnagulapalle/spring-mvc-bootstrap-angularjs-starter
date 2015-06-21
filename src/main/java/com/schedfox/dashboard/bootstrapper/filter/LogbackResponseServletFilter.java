@@ -1,7 +1,9 @@
-package com.willvuong.bootstrapper.filter;
+package com.schedfox.dashboard.bootstrapper.filter;
 
 import ch.qos.logback.classic.LoggerContext;
-import com.willvuong.bootstrapper.util.ThreadLocalMemoryAppender;
+
+import com.schedfox.dashboard.bootstrapper.util.ThreadLocalMemoryAppender;
+
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +13,7 @@ import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpServletResponseWrapper;
+
 import java.io.CharArrayWriter;
 import java.io.IOException;
 import java.io.PrintWriter;

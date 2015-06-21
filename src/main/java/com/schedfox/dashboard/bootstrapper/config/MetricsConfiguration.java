@@ -1,4 +1,4 @@
-package com.willvuong.bootstrapper.config;
+package com.schedfox.dashboard.bootstrapper.config;
 
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.health.HealthCheckRegistry;

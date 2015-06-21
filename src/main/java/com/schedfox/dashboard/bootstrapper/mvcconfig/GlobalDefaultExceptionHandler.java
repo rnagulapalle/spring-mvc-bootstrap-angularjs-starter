@@ -1,4 +1,4 @@
-package com.willvuong.bootstrapper.mvcconfig;
+package com.schedfox.dashboard.bootstrapper.mvcconfig;
 
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.web.bind.annotation.ControllerAdvice;

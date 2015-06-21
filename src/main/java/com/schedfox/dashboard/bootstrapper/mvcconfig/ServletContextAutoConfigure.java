@@ -1,4 +1,4 @@
-package com.willvuong.bootstrapper.mvcconfig;
+package com.schedfox.dashboard.bootstrapper.mvcconfig;
 
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.health.HealthCheckRegistry;
@@ -13,8 +13,9 @@ import com.codahale.metrics.servlets.MetricsServlet;
 import com.codahale.metrics.servlets.PingServlet;
 import com.codahale.metrics.servlets.ThreadDumpServlet;
 import com.opensymphony.sitemesh.webapp.SiteMeshFilter;
-import com.willvuong.bootstrapper.filter.LogbackResponseServletFilter;
-import com.willvuong.bootstrapper.filter.RequestMDCServletFilter;
+import com.schedfox.dashboard.bootstrapper.filter.LogbackResponseServletFilter;
+import com.schedfox.dashboard.bootstrapper.filter.RequestMDCServletFilter;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.WebApplicationInitializer;
@@ -22,6 +23,7 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServlet;
+
 import java.util.EnumSet;
 
 /**

@@ -18,11 +18,11 @@
         </if>
     </appender>
 
-    <appender name="THREADLOCAL" class="com.willvuong.bootstrapper.util.ThreadLocalMemoryAppender"/>
+    <appender name="THREADLOCAL" class="com.schedfox.dashboard.bootstrapper.util.ThreadLocalMemoryAppender"/>
 
     <logger name="org.springframework" level="INFO"/>
-    <logger name="com.willvuong" level="DEBUG"/>
-    <logger name="com.willvuong.bootstrapper.filter.LogbackResponseServletFilter" level="TRACE"/>
+    <logger name="com.schedfox" level="DEBUG"/>
+    <logger name="com.schedfox.dashboard.bootstrapper.filter.LogbackResponseServletFilter" level="TRACE"/>
 
     <root level="WARN">
         <appender-ref ref="STDOUT"/>

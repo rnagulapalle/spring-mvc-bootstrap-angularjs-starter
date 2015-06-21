@@ -1,4 +1,4 @@
-package com.willvuong.bootstrapper.controllers;
+package com.schedfox.dashboard.bootstrapper.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

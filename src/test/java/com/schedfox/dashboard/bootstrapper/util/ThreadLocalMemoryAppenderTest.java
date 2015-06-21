@@ -1,13 +1,16 @@
-package com.willvuong.bootstrapper.util;
+package com.schedfox.dashboard.bootstrapper.util;
 
 import ch.qos.logback.classic.Logger;
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.encoder.PatternLayoutEncoder;
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.encoder.LayoutWrappingEncoder;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.LoggerFactory;
+
+import com.schedfox.dashboard.bootstrapper.util.ThreadLocalMemoryAppender;
 
 import java.util.List;
 

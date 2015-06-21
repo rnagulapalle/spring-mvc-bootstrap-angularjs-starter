@@ -1,4 +1,4 @@
-package com.willvuong.bootstrapper.filter;
+package com.schedfox.dashboard.bootstrapper.filter;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.slf4j.MDC;

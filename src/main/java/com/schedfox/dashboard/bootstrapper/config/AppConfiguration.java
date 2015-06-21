@@ -1,4 +1,4 @@
-package com.willvuong.bootstrapper.config;
+package com.schedfox.dashboard.bootstrapper.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

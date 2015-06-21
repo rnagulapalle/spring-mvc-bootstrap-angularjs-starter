@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.willvuong</groupId>
-    <artifactId>spring-mvc-bootstrap-angularjs-starter</artifactId>
-    <name>spring-mvc-bootstrap-angularjs-starter</name>
+    <groupId>com.schedfox.dashboard</groupId>
+    <artifactId>schedfox-dashboard</artifactId>
+    <name>schedfox-dashboard</name>
     <packaging>war</packaging>
     <version>1.0.0-BUILD-SNAPSHOT</version>
 

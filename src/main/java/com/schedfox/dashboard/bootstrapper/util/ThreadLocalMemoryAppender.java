@@ -1,4 +1,4 @@
-package com.willvuong.bootstrapper.util;
+package com.schedfox.dashboard.bootstrapper.util;
 
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.AppenderBase;

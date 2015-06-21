@@ -1,4 +1,4 @@
-package com.willvuong.bootstrapper.mvcconfig;
+package com.schedfox.dashboard.bootstrapper.mvcconfig;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  */
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.willvuong.bootstrapper.controllers"})
+@ComponentScan(basePackages = {"com.schedfox.dashboard.bootstrapper.controllers"})
 public class MvcConfiguration extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
